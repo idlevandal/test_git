@@ -29,7 +29,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: const Center(
-        child: Text('Bugfix #2 🐛', style: TextStyle(fontSize: 40, color: Colors.blue),),
+        child: Text('Bugfix #3 🐛', style: TextStyle(fontSize: 40, color: Colors.blue),),
       ),
     );
   }
