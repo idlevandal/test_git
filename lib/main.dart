@@ -28,8 +28,16 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const Center(
-        child: Text('Bugfix #3 🐛', style: TextStyle(fontSize: 40, color: Colors.blue),),
+      body: Center(
+        child: Column(
+          children: const [
+            Text('Bugfix #2'),
+            Text(
+              'Bugfix #3',
+              style: TextStyle(fontSize: 40, color: Colors.blue),
+            )
+          ],
+        ),
       ),
     );
   }
